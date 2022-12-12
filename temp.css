@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.grandparent {
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+}
+
+.parent {
+    background-color: #52628d;
+    /* border: 2px solid black; */
+    border-radius: 2rem;
+    /* width: 20vw;
+    height: 50vh; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.circle {
+    border: 2px solid white;
+    background-color: #4756ae;
+    border-radius: 12rem;
+    height: 23rem;
+    width: 23rem;
+    text-align: center;
+    margin: 2rem;
+    color: white;
+    font-size: 4rem;
+    padding-top: 9rem;
+}
+
+button {
+    border: 2px solid white;
+    background-color: gray;
+    border-radius: 4rem;
+    height: 7rem;
+    width: 7rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ffffffa6;
+}
+
+.child1 {
+    /* border: 2px solid red; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-top: 2rem; */
+}
